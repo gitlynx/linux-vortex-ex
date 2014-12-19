@@ -1495,6 +1495,13 @@ config SENSORS_VIA686A
 	  This driver can also be built as a module.  If so, the module
 	  will be called via686a.
 
+config SENSORS_VORTEX_EX
+	tristate "Vortex Ex ADC "
+	depends on X86
+	help
+	  This drivers provides support for the Analogue inputs on the DM&P
+	  Vortex Ex System on chip.
+
 config SENSORS_VT1211
 	tristate "VIA VT1211"
 	depends on !PPC
