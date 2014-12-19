@@ -1499,7 +1499,7 @@ config SENSORS_VORTEX_EX
 	tristate "Vortex Ex ADC "
 	depends on X86
 	help
-	  This drivers provides support for the Analogue inputs on the DM&P
+	  This drivers provides support for the analogue inputs on the DM&P
 	  Vortex Ex System on chip.
 
 config SENSORS_VT1211
